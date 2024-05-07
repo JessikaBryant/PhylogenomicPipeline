@@ -1,1 +1,3 @@
-# BioinformaticsPipelineBB485
+#PhylogenomicPipeline 
+
+Analyze phylogenies from fasta files
