@@ -1,12 +1,16 @@
 ###Pipeline to assemble genomes, infer gene trees and genome trees to investigate phylogenetic incongruence.
 #load modules
-import pandas as pd
-from os import sys
-
+import os
+import sys
+import glob
+import subprocess
+from Bio import SeqIO
+from Bio import Phylo
+from Bio.seq import Seq
 
 ###Input Gene family sequences
-
-
+indir =""
+outdir="/scratch/bryantj2/bb485/week06/PhylogenomicPipeline/OutputFolder"
 
 ###Perform Multiple Sequence Alignment (Mafft)
 
